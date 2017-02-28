@@ -47,6 +47,7 @@ if (typeof process === 'object') {
 	_isWindows = (process.platform === 'win32');
 	_isMacintosh = (process.platform === 'darwin');
 	_isLinux = (process.platform === 'linux');
+	_isLinux = (process.platform === 'freebsd');
 	_isRootUser = !_isWindows && (process.getuid() === 0);
 	let rawNlsConfig = process.env['VSCODE_NLS_CONFIG'];
 	if (rawNlsConfig) {
