@@ -1,5 +1,7 @@
 From: Joseph Benden <joe@benden.us>
-Subject: Add support for FreeBSD
+Subject: FreeBSD integration changes for packaging
 
-Add support for running on the FreeBSD operating system.
+Adds changes needed to package entire project using the
+FreeBSD Ports Collection; by way of intermediate
+build process.
 
